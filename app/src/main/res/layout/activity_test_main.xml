@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wenge.baseapplication.mvp.ui.TestMainActivity">
+
+    <include layout="@layout/view_toolbar" />
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        app:bb_activeTabColor="#c8ce3f3f"
+        app:bb_tabXmlResource="@xml/bottombar_tabs"></com.roughike.bottombar.BottomBar>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_bar"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tool_bar"></FrameLayout>
+
+
+</RelativeLayout>

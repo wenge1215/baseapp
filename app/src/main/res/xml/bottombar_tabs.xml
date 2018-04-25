@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/tab_home"
+
+        title="首页" />
+    <tab
+        id="@+id/tab_fj"
+        icon="@drawable/tab_fj"
+
+        title="附近" />
+    <tab
+        id="@+id/tab_dd"
+        icon="@drawable/tab_dd"
+
+        title="订单"
+
+        />
+    <tab
+        id="@+id/tab_me"
+        icon="@drawable/tab_wd"
+
+        title="我的" />
+</tabs>
